@@ -437,6 +437,6 @@ To download the resulting CSV file from Databricks, follow these steps for using
 
 ## <p align="center">Conclusion</p>
 
-_CryptoETL successfully extracts cryptocurrency data, processes it, and stores it using Azure Blob and Databricks. Future work may involve setting up automated pipelines for continuous data processing and analysis._
+_CryptoETL successfully extracts cryptocurrency data, processes it, and stores it in Azure Blob Storage and Databricks. Additionally, the project uses the Databricks CLI to download the processed CSV file locally for further analysis or reporting. Future work may involve automating pipelines for continuous data processing and analysis._
 
 ---
