@@ -6,6 +6,8 @@
 
 ![image](https://github.com/user-attachments/assets/1e58745a-d8c7-4051-84de-350559c42cad)
 
+<p align="center">(You can click on the image to enlarge it)</p>
+
 ---
 
 ## <p align="center">📃 Table of Contents 📃</p>
@@ -51,11 +53,11 @@
    ```bash
    mvn -v
    ```
-   <p align="center">This should display the Maven version and Java environment details.</p>
+   <p ="center">This should display the Maven version and Java environment details.</p>
    
 ---
 
-## <p align="center">Project Setup</p>
+## <p ="center">Project Setup</p>
 
 1. **Create Maven Project**
    
@@ -130,7 +132,7 @@
 
 ---
 
-## <p align="center">API Interaction</p>
+## <p ="center">API Interaction</p>
 
 1. **CoinGecko API**
    
@@ -142,11 +144,11 @@
 2. **Endpoints**  
    _Use the_ `/coins/markets` _endpoint to pull cryptocurrency data. For documentation, visit_ [CoinGecko API Docs](https://docs.coingecko.com/v3.0.1/reference/coins-markets).
 
-   <p align="center">The documentation has an integrated AI that is surprisingly helpful.</p>
+   <p ="center">The documentation has an integrated AI that is surprisingly helpful.</p>
 
 ---
 
-## <p align="center">Azure Setup</p>
+## <p ="center">Azure Setup</p>
 
 1. **Azure Account**
     
@@ -166,7 +168,7 @@
 
 ---
 
-## <p align="center">Databricks Cluster Setup</p>
+## <p ="center">Databricks Cluster Setup</p>
 
 1. **Create Databricks Cluster**
    
@@ -187,7 +189,7 @@
 
 ---
 
-## <p align="center">Running the ETL Process</p>
+## <p ="center">Running the ETL Process</p>
 
 1. **Run CryptoETL.java** ☕
    
@@ -205,7 +207,7 @@
 
 ---
 
-## <p align="center">Jupyter Notebook</p>
+## <p ="center">Jupyter Notebook</p>
 
 1. **Spark Enviroment Settings**
 
@@ -217,7 +219,7 @@
     "<your_account_key>"
 	 )
    ```
-   <p align="center">To fill it you will need to know your *Container's name* and your *Account Key*.</p>
+   <p ="center">To fill it you will need to know your *Container's name* and your *Account Key*.</p>
 	 
 2. **Load Data into Databricks**
    
@@ -229,7 +231,7 @@
    print(f"Number of partitions: {df.rdd.getNumPartitions()}")
    df.display()
    ```
-   <p align="center">To fill it you will need to know your *Container's name* and the *Storage Account's name* and for the file path you could use *.csv and it will select all files in the storage.</p>
+   <p ="center">To fill it you will need to know your *Container's name* and the *Storage Account's name* and for the file path you could use *.csv and it will select all files in the storage.</p>
 
 3. **Filter and Analyze Data**
    
@@ -359,11 +361,11 @@ _This one is really helpful and will serve you to delete the 'result_df.csv' fil
 #dbutils.fs.ls("dbfs:/FileStore/") # Checks the 'FileStore' directory to see if the 'result_df.csv' file was successfully created
 ```
 
-<p align="center">Just uncomment what you want to use</p>
+<p ="center">Just uncomment what you want to use</p>
 
 ---
 
-## <p align="center">Downloading CSV File</p>
+## <p ="center">Downloading CSV File</p>
 
 To download the resulting CSV file from Databricks, follow these steps for using the **Databricks CLI**:
 
