@@ -24,6 +24,7 @@ public class CryptoETL {
         Dotenv dotenv = Dotenv.load();
         String connectionString = dotenv.get("AZURE_CONNECTION_STRING");
         String containerName = dotenv.get("AZURE_CONTAINER_NAME");
+        String apiKey = dotenv.get("COINGECKO_API_KEY");
 
         String url = "https://api.coingecko.com/api/v3/coins/markets";
 
@@ -35,7 +36,7 @@ public class CryptoETL {
                 .queryString("vs_currency", "usd")
                 .queryString("ids", "bitcoin,ethereum,litecoin")
                 .header("accept", "application/json")  // Add headers
-                .header("x-cg-demo-api-key", "CG-dDxM6j239un7znenoT5mmerN")
+                .header("x-cg-demo-api-key", apiKey)
                 .asString();
 
         if (response.getStatus() == 200) {
