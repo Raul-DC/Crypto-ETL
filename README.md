@@ -415,7 +415,7 @@ To download the resulting CSV file from Databricks, follow these steps for using
 
 1. **Downloading the CSV file from Databricks ⚠️**
     
-   _I've tried many solutions to download directly from the jupyter notebook but at the end not even one worked. I've had to search on the Databricks Forum and found people with the same issues and solved using Databricks CLI._
+   _I've tried many solutions to download directly from the jupyter notebook but at the end not even one worked. I've had to search on the Databricks Forum and found people with the same issues and they solved it using the Databricks CLI._
 
 
 2. **Cluster Node Availability Issues ⛔** 
