@@ -35,7 +35,7 @@ public class CryptoETL {
         HttpResponse<String> response = Unirest.get(url)
                 .queryString("vs_currency", "usd")
                 .queryString("ids", "bitcoin,ethereum,litecoin")
-                .header("accept", "application/json")  // Add headers
+                .header("accept", "application/json")
                 .header("x-cg-demo-api-key", apiKey)
                 .asString();
 
