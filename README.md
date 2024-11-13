@@ -57,7 +57,7 @@
    
 ---
 
-## <p ="center">Project Setup</p>
+## <p align="center">Project Setup</p>
 
 1. **Create Maven Project**
    
@@ -132,7 +132,7 @@
 
 ---
 
-## <p ="center">API Interaction</p>
+## <p align="center">API Interaction</p>
 
 1. **CoinGecko API**
    
@@ -148,7 +148,7 @@
 
 ---
 
-## <p ="center">Azure Setup</p>
+## <p align="center">Azure Setup</p>
 
 1. **Azure Account**
     
@@ -168,7 +168,7 @@
 
 ---
 
-## <p ="center">Databricks Cluster Setup</p>
+## <p align="center">Databricks Cluster Setup</p>
 
 1. **Create Databricks Cluster**
    
@@ -189,7 +189,7 @@
 
 ---
 
-## <p ="center">Running the ETL Process</p>
+## <p align="center">Running the ETL Process</p>
 
 1. **Run CryptoETL.java** ☕
    
@@ -207,7 +207,7 @@
 
 ---
 
-## <p ="center">Jupyter Notebook</p>
+## <p align="center">Jupyter Notebook</p>
 
 1. **Spark Enviroment Settings**
 
@@ -219,7 +219,7 @@
     "<your_account_key>"
 	 )
    ```
-   <p ="center">To fill it you will need to know your *Container's name* and your *Account Key*.</p>
+   <p align="center">To fill it you will need to know your *Container's name* and your *Account Key*.</p>
 	 
 2. **Load Data into Databricks**
    
@@ -231,7 +231,7 @@
    print(f"Number of partitions: {df.rdd.getNumPartitions()}")
    df.display()
    ```
-   <p ="center">To fill it you will need to know your *Container's name* and the *Storage Account's name* and for the file path you could use *.csv and it will select all files in the storage.</p>
+   <p align="center">To fill it you will need to know your *Container's name* and the *Storage Account's name* and for the file path you could use *.csv and it will select all files in the storage.</p>
 
 3. **Filter and Analyze Data**
    
@@ -361,11 +361,11 @@ _This one is really helpful and will serve you to delete the 'result_df.csv' fil
 #dbutils.fs.ls("dbfs:/FileStore/") # Checks the 'FileStore' directory to see if the 'result_df.csv' file was successfully created
 ```
 
-<p ="center">Just uncomment what you want to use</p>
+<p align="center">Just uncomment what you want to use</p>
 
 ---
 
-## <p ="center">Downloading CSV File</p>
+## <p align="center">Downloading CSV File</p>
 
 To download the resulting CSV file from Databricks, follow these steps for using the **Databricks CLI**:
 
